@@ -1,46 +1,94 @@
 body {
   font-family: Helvetica, sans-serif;
+  margin: 0;
+  background-color: #b4cee1;
+
 }
+
+/*https://coolors.co. Good tool for picking color themes for websites*/
 
 #header {
-  width: 100%;
-  height: 80px;
   text-align: center;
-  background-color: blue;
-  padding: 10px;
+  background-color: #16324f;
+  padding: 40px;
 }
 
-h1 {}
+h1 {
+  background-image: linear-gradient(to left, #129490, #95cba0);
+  /*Makes the heading two coloured with a gradient*/
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px;
+}
 
 .fact-left {
   width: 80%;
   height: 260px;
-  background-color: pink;
-  padding: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  /*
+  Needed to set a fixed height to cantain the images inside the div box.
+  Other solution??
+  */
+  background-color: #3E92CC;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  /*rounded corners of the box*/
+  border-radius: 5px;
+
+}
+
+h2 {
+  color: #13293D;
+  font-size: 30px;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 18px;
 }
 
 .fact-right {
   width: 80%;
   height: 260px;
-  background-color: lightgreen;
-  padding: 10px;
+  /*
+  Needed to set a fixed height to cantain the images inside the div box.
+  Other solution??
+  */
+  background-color: #2a628f;
+  padding: 20px;
   margin-left: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  /*To align the boxes to the right*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  /*rounded corners of the box*/
+  border-radius: 5px;
 }
-
 
 img {
   width: 270px;
-
+  border-radius: 5px;
 }
 
-#footer {}
+#footer {
+  background-color: #16324f;
+  padding: 10px;
+}
 
 #footer h2 {
   text-align: center;
+  color: whitesmoke;
 }
 
-#footer h2 a {}
+#footer h2 a {
+  color: #95cba0;
+
+}
+
+#footer h2 a:hover {
+  color: #129490;
+}
+
+/*To create a color change on hover*/
